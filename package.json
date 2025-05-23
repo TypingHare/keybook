@@ -1,0 +1,40 @@
+{
+    "name": "haystack-neovimm",
+    "version": "0.0.0",
+    "description": "Craft your own Neovim keybindings wikipedia.",
+    "main": "index.js",
+    "type": "common",
+    "scripts": {
+        "build": "node_modules/typescript/bin/tsc",
+        "emit": "pnpm build && node dist/output/output.js"
+    },
+    "keywords": [
+        "neovim",
+        "keybinding"
+    ],
+    "author": {
+        "name": "James Chen",
+        "email": "jameschan312.cn@gmail.com"
+    },
+    "license": "MIT",
+    "packageManager": "pnpm@10.10.0",
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true,
+        "endOfLine": "lf",
+        "printWidth": 80
+    },
+    "devDependencies": {
+        "@types/node": "^22.15.21",
+        "eslint": "^9.27.0",
+        "eslint-plugin-jsonc": "^2.20.1",
+        "jsonc-eslint-parser": "^2.4.0",
+        "prettier": "^3.5.3",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "commander": "^14.0.0"
+    }
+}
