@@ -1,4 +1,8 @@
 import { createKeybook } from '../helper'
-import { vimKeybindings, vimModule } from './vim'
+import { neoTreeKeybindings, neoTreeModule } from './modules/neo-tree'
+import { vimKeybindings, vimModule } from './modules/vim'
 
-export const keybook = createKeybook([...vimKeybindings], [vimModule])
+export const keybook = createKeybook(
+    [...vimKeybindings, ...neoTreeKeybindings],
+    [vimModule, neoTreeModule]
+)

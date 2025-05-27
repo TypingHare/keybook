@@ -31,8 +31,12 @@ export interface Keybinding {
 
 /**
  * Four different modes in Vim/Neovim.
+ * n - Normal
+ * i - Insert
+ * v - Visual
+ * t - Terminal
  */
-export type Mode = 'normal' | 'insert' | 'visual' | 'terminal'
+export type Mode = 'n' | 'i' | 'v' | 't'
 
 /**
  * Represents a module.
