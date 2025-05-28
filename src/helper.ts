@@ -1,5 +1,5 @@
-import { KeyComb } from './key-comb'
-import { Keybinding, Keybook, Mode, Module } from './keybook'
+import { KeyComb } from './key-comb.js'
+import { Keybinding, Keybook, Mode, Module } from './keybook.js'
 
 /**
  * Creates a keybook.

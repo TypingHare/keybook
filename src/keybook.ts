@@ -1,4 +1,4 @@
-import { KeyComb } from './key-comb'
+import { KeyComb } from './key-comb.js'
 
 /**
  * Represents a keybook.

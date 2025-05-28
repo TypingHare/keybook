@@ -1,5 +1,5 @@
-import { createModule, createModuleBinder } from '../../helper'
-import { Keybinding } from '../../keybook'
+import { createModule, createModuleBinder } from '../../helper.js'
+import { Keybinding } from '../../keybook.js'
 
 export const vimModule = createModule('vim', 'Vim is what Neovim bases on.')
 export const vim = createModuleBinder(vimModule)

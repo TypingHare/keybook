@@ -1,1 +1,1 @@
-export * from './keybook'
+export * from './keybook.js'

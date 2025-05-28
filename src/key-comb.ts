@@ -102,7 +102,6 @@ export type KeyboardChar =
     | '\\'
     | '|'
     | ';'
-    | ';'
     | ':'
     | "'"
     | '"'
